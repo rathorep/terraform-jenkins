@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "name" {
-  ami               = "ami-0c2af51e265bd5e0"
+  ami               = "ami-0c2af51e265bd5e0e"
   instance_type     = "t2.micro"
   availability_zone = var.availability
   tags = {
